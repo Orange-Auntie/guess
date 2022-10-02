@@ -30,7 +30,7 @@ function send() {
 
 
     length_minus_1 = word.length - 1;
-    chaAt3 = word.charAt(length_minus_1);
+    charAt3 = word.charAt(length_minus_1);
     console.log(charAt3);
     remove_charAt1 = word.replace(charAt1, "_"); 
     remove_charAt2 = remove_charAt1.replace(charAt2, "_");
